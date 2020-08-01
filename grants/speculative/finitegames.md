@@ -1,7 +1,14 @@
-# Project name
+# Finite Games
 
 ## Project Description
-If this application in response to an RFP then please indicate this on the first line of this section.
+Finite Games is focused on the development of the tools and conceptual demonstrations to support hypercasual e-sport experiences. These experiences will emphasize the extension of the capabilities of blockchain gaming beyond player ownership to the design of mechanisms where in-game decisions have an explicit impact on all other players through a finite world. Essentially, we are creating a persistent global environment where resources are not just finite but consumed during gameplay. Through the use of blockchain digital assets, we can support the development of interoperability. 
+
+To support this foundational concept, we believe that the use of finite digital assets can democratize the esports experience across various aspects of the industry’s verticals. To achieve this democratization, we plan to create NFTs that have a separate permission assigned to the source of its visualization components. This can be used to create an advertisement marketplace where sponsors can directly purchase the ability to rebrand/reskin a player's items based on negotiated conditions. The various functionality will provide a foundation for scaling the esports experience and increasing engagement through the gameplay mechanics. 
+
+The establishment of an independent non-fungible token (NFT) marketplace focused on the adtech market has the potential to create a novel use to create lucrative B2B2B (Business to Business to Consumer) opportunities. This could play an important part in establishment the technology stack to support interoperable gaming and individual participation in the advertisement and sponsorship space. We will integrate this project initially as a parachain. However, this will require some development on the substrate framework to provide the components for execution. 
+
+Our team is interested in this project because we wanted to create gaming experiences that have longevity and could make the onboarding of our friends into the cryptocurrency space easier. We are also interested in seeing the economics of our system implemented. We beleive we can create a more accessible means of esports. Also, this infrastructure can be the foundation for even more innovative use cases.
+
 
 Please provide the following:
   * A brief description of the project.
