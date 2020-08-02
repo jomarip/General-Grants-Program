@@ -21,7 +21,10 @@ Our team is interested in this project because we wanted to create gaming experi
 Hajj Media, LLC
 
 ## Team's experience
-Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects.  We'll glance at whole repositories too, but not if they contain many vendored dependencies, which often makes commits easier. 
+Jomari Peterson  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects.  We'll glance at whole repositories too, but not if they contain many vendored dependencies, which often makes commits easier. 
+https://github.com/whitneygriffith/LoggingIoTHighFrequencyDataOffChain/commit/473e745425790a6e0b54e643e7873589cdf63f56
+https://github.com/jcarolinares/gmail_massive_email_sender-/commit/5f8b38ea2efb1250976dcabcd22d40d7beb2d4f5
+https://github.com/theQRL/QRL/commit/5d86a3bdaf348dce07d17fce915711455ebf0004
 
 ## Team Code Repos
 * https://github.com/jomarip/roshambo-contracts/tree/master
