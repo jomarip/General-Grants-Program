@@ -9,33 +9,29 @@ The establishment of an independent non-fungible token (NFT) marketplace focused
 
 Our team is interested in this project because we wanted to create gaming experiences that have longevity and could make the onboarding of our friends into the cryptocurrency space easier. We are also interested in seeing the economics of our system implemented. We beleive we can create a more accessible means of esports. Also, this infrastructure can be the foundation for even more innovative use cases.
 
-
-Please provide the following:
-  * A brief description of the project.
-  * An indication of why this project is good for the ecosystem.
-  * An indication of how you will integrate this project into Substrate / Polkadot.
-  * An indication of why your team is interested in creating this project.
-
 ## Team members
-* Name of team leader
-* Names of team members	
+ * Jomari Peterson is the team lead. He is serial entrepreneur with a focus on the design of innovative systems and business models. His past work can be found on Linkedin: (https://www.linkedin.com/in/jomari/) and Github (https://gist.github.com/jomarip). Some of his successes include delivering a 10x return as a co-founder of the Quantum Resistant Ledger. He was able to facilitate its growth to $100M valuation. He has also designed novel approaches to proof of stake and microlending solutions. In addition to attending Carnegie Mellon University for his PhD in Engineering & Public Policy, he graduated from Howard University with a focus on a Masters in Business Administration. He also also traveled as an international speaker on Economic Systems, Incentives and Mechanisms. 
+
+ * Whitney Griffith is the developer who initiated the smart contracts that lead to winning at the SF Blockchain Week Gaming Hackathon. Her pastwork can be found on Linkedin (https://www.linkedin.com/in/whitneygriffith/) and on github (https://gist.github.com/whitneygriffith). Some of her past successes includes being a serial blockchain hackathon winner and Startup Bus winner with Small Street. She is also the Director fo Developer Relations with the Carribean Coding Academy and Microsoft Commercial Software Engineeer. She graduated from Howard University's computer science program. 
 
 ## Team Website	
-* https://...
+* https://finite.games
 
 ## Legal Structure 
-Please provide the name and registered address of the legal entity executing the project. These details can also be shared privately via the Google Form used for your application.
+Hajj Media, LLC
 
 ## Team's experience
 Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects.  We'll glance at whole repositories too, but not if they contain many vendored dependencies, which often makes commits easier. 
 
 ## Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+* https://github.com/jomarip/roshambo-contracts/tree/master
+* https://github.com/jomarip/roshambo-backend
+* https://github.com/jomarip/roshambo-players
+* https://github.com/jomarip/roshambo
 
 ## Team LinkedIn Profiles
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+* https://www.linkedin.com/in/jomari/
+* https://www.linkedin.com/in/whitneygriffith/
 
 ## Development Roadmap
 This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to have as much detail as possible. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
