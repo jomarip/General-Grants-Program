@@ -37,52 +37,107 @@ https://github.com/theQRL/QRL/commit/5d86a3bdaf348dce07d17fce915711455ebf0004
 * https://www.linkedin.com/in/whitneygriffith/
 
 ## Development Roadmap
-This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to have as much detail as possible. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
+### Milestone 1 - Gaming and IPFS NFT Standard
 
-Here is a reminder of the main criteria of our grants:
-* Focus on Substrate / Polkadot related projects.
-* Max $100k.
-* Timeframe: up to 3 months is ideal.
-* Open source license (the preferred license is Apache 2.0)
+**Time estimate:** 4 weeks
 
-Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. It is always best to describe the functionality we should expect, plus how we can check that such functionality exists in the product.
+**Budget:** $5,500 (65% in USD or stable coins, 35% in DOTs)
 
-For each milestone:
-* Please be sure to include a specification of the software. The level of detail must be enough so that we are able to test that the software meets the specification.
-* Please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
-* Please note that we require documentation (e.g. tutorials) in each milestone. This ensures that the code can be widely used by the community.
-* Please commit to providing a docker container for the delivery of your project. 
-* Please indicate the number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
+**Deliverable:** installation packages for Substrate IDE (Mac OS).
 
-### Milestone 1 — Implement Substrate Modules — 1 month — $10,000
-* We will create a Substrate module that will... (Please list the functions that will be coded for the first milestone).
-* We will deliver a working module, along with a simple tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works.
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+**Specifications:**
+Outside of the use of collectibles,  NFTs can be multifaceted tools. We want to implement a methodology for creating additional permissions and functionality around NFTs. Specifically, a modifier to NFTs that allow users to maintain ownership of the collectible but auction off the pointer that represents the NFTs visualization. This type of functionality is important for laying the foundation of consistent interoperability between different mediums. 
+We at Finite Games have a long term interest in the use of Generative Adversarial Networks (GANs) to modify assets in one game to be normalized and properly adapted for utilization in other games. To achieve this, it is necessary to be able to build out NFTs with modifiable parameters and permissions relative to how they are processed under various conditions. These would leverage the creation/leveraging of a potential pallet for whitelist creation associated with the NFTs that provides certain permissions. These are executed with a multisig and must be confirmed by the owner of the asset. 
+Minimum Expected Pallet Functionality: NFT, Multisig, WhiteList
 
-### Milestone 2 — Additional features — 1 month — $10,000
-* We will create a... (Describe the next round of features and functions that will be added).
-* We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+Build Gaming Focused IPFS NFT Implementation with the following functionality:
 
-### Milestone 3 — Additional features — 1 month — $10,000
-* We will create a... (Describe the next round of features and functions that will be added).
-* We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+ - NFTs are Parameterized
+    - Modifiable Attributes (durability, size, location, etc)
+    - Pointer (Digital Asset Visualization)
+    - Version control
+    - Layers
+    - Permissions
+  - IPFS Storage and Verification Protocol
+    - Verify file parameters meet NFT speficiations
+    - Update/Modify Files based on NFT permissions
+    - Return a proof/verification to parachain/parathread
+  - Documentation for each component and parameter
+
+**Notice** Milestone 1 is only an alpha-stage release and not intended for production use without verification following build out in application settings.
+
+### Milestone 2 - RoShamBo Proof of Concept of Hypercasual Esports Gaming Functionality as a Progressive Web App
+
+**Time estimate:** 4 weeks
+
+**Budget:** $8500 (65% in USD or stable coins, 35% in DOTs)
+
+**Deliverable:** Progressive Web App of RoShamBo for Tutorial and Demonstration Purposes
+
+**Specifications:**
+
+Our first demonstration of these core concepts are with RoShamBo: Rock Paper Scissors Elite. This will be implemented asa Progressive Web3 Application (PW3A) for Chrome and Brave Browser. This will not only provide a demonstration platform, but a reproducible means of creating PW3As. Within the minimum viable demonstration of the NFT milestone 1, in each generation, only X digital collectible cards will be created for rocks, papers and scissors. Card durability is consumed during matches, and an overall counter is provided to keep track of the dwindling supply. A leaderboard is provided for the number of stars players have accumulated. Stars are also tradeable between users after playing sufficient matches. Tournaments can be created ad hoc, but they are a subset of the existing resources. With the completion of milestone 3, the in-game assets will be reskinnable/brandable assets that the users can set up for auction with sponsors. Sponsors will be able to filter by player records and games played per day and other relevant statistics of players to determine impact metrics. This piece of work would leverage a number of pallets to complete the ecosystem of functionality. This will share a parathread/parachain with the marketplace from Milestone3.
+
+- Create/Register/Login Users
+  - Login with email
+  - Login w/ Private Key
+  - Generate and Encrypt keypair to localstorage
+- Account Management
+  - Send or Receive 
+  - View account balance
+  - View account transaction history
+  - Transfer Assets
+  - Purchase Assets from Smart Contract
+  - Sign transactions
+- Gameplay
+  - Matchmaking
+  - Initiate Game
+  - Join Game
+  - Render NFTs based on wallet and IPFS related parameters
+  - Select NFTs 
+  - Save NFT Formation
+  - Use NFTs in Game
+  - Update in-game statistics
+  - Update NFTs based on gameplay
+- Documentation for each component and parameter
+
+**Notice** Milestone 2 is potentially only an alpha-stage release and not intended for production use without verification following build out of the marketplace as an application settings.
+
+### Milestone 3 - Marketplace for Customizable in-Game Assets
+**Time estimate:** 4 weeks
+
+**Budget:** $8500 (20% in USD or stable coins, 80% in DOTs)
+
+**Deliverable:** Marketplace for Customizable NFTs
+
+**Specifications:**
+It is well known that a major trend in gaming is to provide players in-game skins for their characters and other in-game items to set their characters apart. These skins are often coveted and part of the branding for players. With the ability to separate ownership and digital visualization, we can create a marketplace where players can be directly sponsored through their in-game assets. In addition, we would create a separate tool to support the modification of those in-game assets would be needed. This means whether it is the reskinning of their characters or other assets they have, it would be a means for amateur esports players to also participate in the market. Another beneficiary market of this foundational technology would be digital art. The type of art and manipulation possible could substantially change with the ability to further augment and brand existing pieces. Overall, this type of platform would increase accessibility and support the transition of amateurs to pro status. Implementing this may necessitate the creation/utilization of an Orderbook pallet that interacts with the NFTs. Upon fulfillment of orders, the purchaser will be added to the whitelist of the NFT for the ability to modify the assets. 
+
+- Owners of NFTs
+  - Add NFTs to Orderbook
+  - Remove NFTs from Market
+  - Set Price and Conditions
+  - Event listener for notification of purchases
+- Sponsors/Buyers
+  - Submit Bid/Fee and Agreement to Terms/Conditions 
+  - Submit NFT Pointer for Approval
+  - Verify Image/File Meets Parameters (IPFS)
+  - Event Listener for Notification of Approval Signatures
+- Orderbook/History
+  - Get List and Info of Items
+  - Get time assets were listed
+  - Get list and info for sold items
+ - Documentation for each component and utilization
+
+
+**Notice** Milestone 3 is potentially only an alpha-stage release and intended for testing with Milestone #2
+
+
+### Long term plan
+The establishment of these frameworks and implementations create the groundwork for the development and extension of novel NFT based digital assets into mobile and web gaming. Following this, Finite Games will extend the capabilities into a commercial ready product and market place. A focus will be on onboarding people to use the MVP of RoShamBo and smaller potential sponsors to determine the best ways to scale the foundational technologies. Finite Games will also begin to support gaming studios in leveraging the existing assets to build new games across web platforms and as native applications. The goal will be a robust digital art and in-game asset marketplace. 
 
 ## Future Plans
-* Please include the team's long-term plans and intentions.
+Use General Adversarial Networks (GANs) or some other machine learning framework to create multi-attribute digital assets that can be easily moved from one game ecosystem to another and be normalized
 
 ## Additional Information
-Any additional information that you think is relevant to this application that hasn't already been included.
-
-Possible additional information to include:
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
-* Are there any other projects similar to yours? If so, how is your project different?  
+Finite Games is a growing team and we tap into a number of resources to execute and audit our work. We were winners in the SF Blockchain Week Gaming Hackathon and had some of the initial frontend work already funded. We have not applied for any other grants and have not seen any similar projects. The closest may be async art which launched recently and uses a layer approach to NFTs.
